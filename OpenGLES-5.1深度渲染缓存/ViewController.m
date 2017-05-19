@@ -27,13 +27,14 @@
     GLKView *glView = (GLKView*)self.view;
 //    可深度绘制格式
     glView.drawableDepthFormat = GLKViewDrawableDepthFormat16;
-
+    
     glView.context = [[AGLKContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
     [AGLKContext setCurrentContext:glView.context];
     [((AGLKContext *)glView.context) setClearColor:GLKVector4Make(0.0f, 0.0f, 0.0f, 1.0f)];
     self.mBaseEffect = [[GLKBaseEffect alloc] init];
     self.mBaseEffect.useConstantColor = GL_TRUE;
     self.mBaseEffect.constantColor = GLKVector4Make(1.0f, 1.0f, 1.0f, 1.0f);
+    
     //初始化缓存
     self.mPostionBuffer = [[AGLKVertexAttribArrayBuffer alloc] initWithAttribStride:(3*sizeof(GLfloat)) numberOfVertices:sizeof(sphereVerts)/(3*sizeof(GLfloat)) bytes:sphereVerts usage:GL_STATIC_DRAW];
 
@@ -59,6 +60,11 @@
 
 -(void)glkView:(GLKView *)view drawInRect:(CGRect)rect{
     [((AGLKContext *) view.context) clear:GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT];
+    //处理宽高比例
+    GLfloat aspectRat = (GLfloat)view.drawableWidth/(GLfloat )view.drawableHeight;
+    //XYZ轴比例
+    self.mBaseEffect.transform.projectionMatrix = GLKMatrix4MakeScale(1.0f, aspectRat, 1.0f);
+
     [self.mPostionBuffer prepareToDrawWithAttrib:GLKVertexAttribPosition numberOfCoordinates:3 attribOffset:0 shouldEnable:YES];
     [self.mNomalBuffer prepareToDrawWithAttrib:GLKVertexAttribNormal numberOfCoordinates:3 attribOffset:0 shouldEnable:YES];
     [self.mTextureBuffer prepareToDrawWithAttrib:GLKVertexAttribTexCoord0 numberOfCoordinates:2 attribOffset:0 shouldEnable:YES];
