@@ -15,6 +15,24 @@
 		835CF7D81ECECD52003D057B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835CF7D61ECECD52003D057B /* LaunchScreen.storyboard */; };
 		835CF7E31ECECD52003D057B /* OpenGLES_5_1______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF7E21ECECD52003D057B /* OpenGLES_5_1______Tests.m */; };
 		835CF7EE1ECECD52003D057B /* OpenGLES_5_1______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF7ED1ECECD52003D057B /* OpenGLES_5_1______UITests.m */; };
+		835CF81B1ECECD85003D057B /* AGLKCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF7FF1ECECD85003D057B /* AGLKCollision.m */; };
+		835CF81C1ECECD85003D057B /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF8011ECECD85003D057B /* AGLKContext.m */; };
+		835CF81D1ECECD85003D057B /* AGLKFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF8031ECECD85003D057B /* AGLKFilters.m */; };
+		835CF81E1ECECD85003D057B /* AGLKFrustum.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF8051ECECD85003D057B /* AGLKFrustum.m */; };
+		835CF81F1ECECD85003D057B /* AGLKPointParticleEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF8071ECECD85003D057B /* AGLKPointParticleEffect.m */; };
+		835CF8201ECECD85003D057B /* AGLKSkyboxEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF8091ECECD85003D057B /* AGLKSkyboxEffect.m */; };
+		835CF8211ECECD85003D057B /* AGLKTextureLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF80B1ECECD85003D057B /* AGLKTextureLoader.m */; };
+		835CF8221ECECD85003D057B /* AGLKTextureTransformBaseEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF80D1ECECD85003D057B /* AGLKTextureTransformBaseEffect.m */; };
+		835CF8231ECECD85003D057B /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF80F1ECECD85003D057B /* AGLKVertexAttribArrayBuffer.m */; };
+		835CF8241ECECD85003D057B /* AGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF8111ECECD85003D057B /* AGLKView.m */; };
+		835CF8251ECECD85003D057B /* AGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835CF8131ECECD85003D057B /* AGLKViewController.m */; };
+		835CF8261ECECD85003D057B /* AGLKPointParticleShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 835CF8151ECECD85003D057B /* AGLKPointParticleShader.fsh */; };
+		835CF8271ECECD85003D057B /* AGLKPointParticleShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 835CF8161ECECD85003D057B /* AGLKPointParticleShader.vsh */; };
+		835CF8281ECECD85003D057B /* AGLKSkyboxShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 835CF8171ECECD85003D057B /* AGLKSkyboxShader.fsh */; };
+		835CF8291ECECD85003D057B /* AGLKSkyboxShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 835CF8181ECECD85003D057B /* AGLKSkyboxShader.vsh */; };
+		835CF82A1ECECD85003D057B /* AGLKTextureMatrix2PointLightShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 835CF8191ECECD85003D057B /* AGLKTextureMatrix2PointLightShader.fsh */; };
+		835CF82B1ECECD85003D057B /* AGLKTextureMatrix2PointLightShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 835CF81A1ECECD85003D057B /* AGLKTextureMatrix2PointLightShader.vsh */; };
+		835CF82D1ECED339003D057B /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 835CF82C1ECED339003D057B /* Earth.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +69,37 @@
 		835CF7E91ECECD52003D057B /* OpenGLES-5.1深度渲染缓存UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLES-5.1深度渲染缓存UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		835CF7ED1ECECD52003D057B /* OpenGLES_5_1______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLES_5_1______UITests.m"; sourceTree = "<group>"; };
 		835CF7EF1ECECD52003D057B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835CF7FB1ECECD75003D057B /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		835CF7FD1ECECD85003D057B /* AGLKAxisAllignedBoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKAxisAllignedBoundingBox.h; sourceTree = "<group>"; };
+		835CF7FE1ECECD85003D057B /* AGLKCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKCollision.h; sourceTree = "<group>"; };
+		835CF7FF1ECECD85003D057B /* AGLKCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKCollision.m; sourceTree = "<group>"; };
+		835CF8001ECECD85003D057B /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
+		835CF8011ECECD85003D057B /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+		835CF8021ECECD85003D057B /* AGLKFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKFilters.h; sourceTree = "<group>"; };
+		835CF8031ECECD85003D057B /* AGLKFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKFilters.m; sourceTree = "<group>"; };
+		835CF8041ECECD85003D057B /* AGLKFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKFrustum.h; sourceTree = "<group>"; };
+		835CF8051ECECD85003D057B /* AGLKFrustum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKFrustum.m; sourceTree = "<group>"; };
+		835CF8061ECECD85003D057B /* AGLKPointParticleEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKPointParticleEffect.h; sourceTree = "<group>"; };
+		835CF8071ECECD85003D057B /* AGLKPointParticleEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKPointParticleEffect.m; sourceTree = "<group>"; };
+		835CF8081ECECD85003D057B /* AGLKSkyboxEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKSkyboxEffect.h; sourceTree = "<group>"; };
+		835CF8091ECECD85003D057B /* AGLKSkyboxEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKSkyboxEffect.m; sourceTree = "<group>"; };
+		835CF80A1ECECD85003D057B /* AGLKTextureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKTextureLoader.h; sourceTree = "<group>"; };
+		835CF80B1ECECD85003D057B /* AGLKTextureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKTextureLoader.m; sourceTree = "<group>"; };
+		835CF80C1ECECD85003D057B /* AGLKTextureTransformBaseEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKTextureTransformBaseEffect.h; sourceTree = "<group>"; };
+		835CF80D1ECECD85003D057B /* AGLKTextureTransformBaseEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKTextureTransformBaseEffect.m; sourceTree = "<group>"; };
+		835CF80E1ECECD85003D057B /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		835CF80F1ECECD85003D057B /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		835CF8101ECECD85003D057B /* AGLKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKView.h; sourceTree = "<group>"; };
+		835CF8111ECECD85003D057B /* AGLKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKView.m; sourceTree = "<group>"; };
+		835CF8121ECECD85003D057B /* AGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKViewController.h; sourceTree = "<group>"; };
+		835CF8131ECECD85003D057B /* AGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKViewController.m; sourceTree = "<group>"; };
+		835CF8151ECECD85003D057B /* AGLKPointParticleShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKPointParticleShader.fsh; sourceTree = "<group>"; };
+		835CF8161ECECD85003D057B /* AGLKPointParticleShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKPointParticleShader.vsh; sourceTree = "<group>"; };
+		835CF8171ECECD85003D057B /* AGLKSkyboxShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKSkyboxShader.fsh; sourceTree = "<group>"; };
+		835CF8181ECECD85003D057B /* AGLKSkyboxShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKSkyboxShader.vsh; sourceTree = "<group>"; };
+		835CF8191ECECD85003D057B /* AGLKTextureMatrix2PointLightShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKTextureMatrix2PointLightShader.fsh; sourceTree = "<group>"; };
+		835CF81A1ECECD85003D057B /* AGLKTextureMatrix2PointLightShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKTextureMatrix2PointLightShader.vsh; sourceTree = "<group>"; };
+		835CF82C1ECED339003D057B /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +150,8 @@
 		835CF7C71ECECD52003D057B /* OpenGLES-5.1深度渲染缓存 */ = {
 			isa = PBXGroup;
 			children = (
+				835CF7FC1ECECD85003D057B /* AGLKit */,
+				835CF7FB1ECECD75003D057B /* sphere.h */,
 				835CF7CB1ECECD52003D057B /* AppDelegate.h */,
 				835CF7CC1ECECD52003D057B /* AppDelegate.m */,
 				835CF7CE1ECECD52003D057B /* ViewController.h */,
@@ -117,6 +168,7 @@
 		835CF7C81ECECD52003D057B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				835CF82C1ECED339003D057B /* Earth.jpg */,
 				835CF7C91ECECD52003D057B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +190,50 @@
 				835CF7EF1ECECD52003D057B /* Info.plist */,
 			);
 			path = "OpenGLES-5.1深度渲染缓存UITests";
+			sourceTree = "<group>";
+		};
+		835CF7FC1ECECD85003D057B /* AGLKit */ = {
+			isa = PBXGroup;
+			children = (
+				835CF7FD1ECECD85003D057B /* AGLKAxisAllignedBoundingBox.h */,
+				835CF7FE1ECECD85003D057B /* AGLKCollision.h */,
+				835CF7FF1ECECD85003D057B /* AGLKCollision.m */,
+				835CF8001ECECD85003D057B /* AGLKContext.h */,
+				835CF8011ECECD85003D057B /* AGLKContext.m */,
+				835CF8021ECECD85003D057B /* AGLKFilters.h */,
+				835CF8031ECECD85003D057B /* AGLKFilters.m */,
+				835CF8041ECECD85003D057B /* AGLKFrustum.h */,
+				835CF8051ECECD85003D057B /* AGLKFrustum.m */,
+				835CF8061ECECD85003D057B /* AGLKPointParticleEffect.h */,
+				835CF8071ECECD85003D057B /* AGLKPointParticleEffect.m */,
+				835CF8081ECECD85003D057B /* AGLKSkyboxEffect.h */,
+				835CF8091ECECD85003D057B /* AGLKSkyboxEffect.m */,
+				835CF80A1ECECD85003D057B /* AGLKTextureLoader.h */,
+				835CF80B1ECECD85003D057B /* AGLKTextureLoader.m */,
+				835CF80C1ECECD85003D057B /* AGLKTextureTransformBaseEffect.h */,
+				835CF80D1ECECD85003D057B /* AGLKTextureTransformBaseEffect.m */,
+				835CF80E1ECECD85003D057B /* AGLKVertexAttribArrayBuffer.h */,
+				835CF80F1ECECD85003D057B /* AGLKVertexAttribArrayBuffer.m */,
+				835CF8101ECECD85003D057B /* AGLKView.h */,
+				835CF8111ECECD85003D057B /* AGLKView.m */,
+				835CF8121ECECD85003D057B /* AGLKViewController.h */,
+				835CF8131ECECD85003D057B /* AGLKViewController.m */,
+				835CF8141ECECD85003D057B /* Shaders */,
+			);
+			path = AGLKit;
+			sourceTree = "<group>";
+		};
+		835CF8141ECECD85003D057B /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				835CF8151ECECD85003D057B /* AGLKPointParticleShader.fsh */,
+				835CF8161ECECD85003D057B /* AGLKPointParticleShader.vsh */,
+				835CF8171ECECD85003D057B /* AGLKSkyboxShader.fsh */,
+				835CF8181ECECD85003D057B /* AGLKSkyboxShader.vsh */,
+				835CF8191ECECD85003D057B /* AGLKTextureMatrix2PointLightShader.fsh */,
+				835CF81A1ECECD85003D057B /* AGLKTextureMatrix2PointLightShader.vsh */,
+			);
+			path = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +344,14 @@
 			files = (
 				835CF7D81ECECD52003D057B /* LaunchScreen.storyboard in Resources */,
 				835CF7D51ECECD52003D057B /* Assets.xcassets in Resources */,
+				835CF8261ECECD85003D057B /* AGLKPointParticleShader.fsh in Resources */,
+				835CF8281ECECD85003D057B /* AGLKSkyboxShader.fsh in Resources */,
+				835CF8291ECECD85003D057B /* AGLKSkyboxShader.vsh in Resources */,
+				835CF82A1ECECD85003D057B /* AGLKTextureMatrix2PointLightShader.fsh in Resources */,
 				835CF7D31ECECD52003D057B /* Main.storyboard in Resources */,
+				835CF82B1ECECD85003D057B /* AGLKTextureMatrix2PointLightShader.vsh in Resources */,
+				835CF82D1ECED339003D057B /* Earth.jpg in Resources */,
+				835CF8271ECECD85003D057B /* AGLKPointParticleShader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +376,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835CF8231ECECD85003D057B /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				835CF8201ECECD85003D057B /* AGLKSkyboxEffect.m in Sources */,
+				835CF8211ECECD85003D057B /* AGLKTextureLoader.m in Sources */,
+				835CF81C1ECECD85003D057B /* AGLKContext.m in Sources */,
 				835CF7D01ECECD52003D057B /* ViewController.m in Sources */,
+				835CF81B1ECECD85003D057B /* AGLKCollision.m in Sources */,
 				835CF7CD1ECECD52003D057B /* AppDelegate.m in Sources */,
+				835CF81E1ECECD85003D057B /* AGLKFrustum.m in Sources */,
+				835CF81D1ECECD85003D057B /* AGLKFilters.m in Sources */,
+				835CF8221ECECD85003D057B /* AGLKTextureTransformBaseEffect.m in Sources */,
+				835CF81F1ECECD85003D057B /* AGLKPointParticleEffect.m in Sources */,
 				835CF7CA1ECECD52003D057B /* main.m in Sources */,
+				835CF8241ECECD85003D057B /* AGLKView.m in Sources */,
+				835CF8251ECECD85003D057B /* AGLKViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "OpenGLES-5.1深度渲染缓存/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.OpenGLES-5-1------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "OpenGLES-5.1深度渲染缓存/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.OpenGLES-5-1------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
